@@ -1,0 +1,78 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Times New Roman', serif;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+}
+
+.block {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid #3498db;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  background-color: #e7d2a2; /* Changed background color to beige */
+}
+
+.block h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+  text-align: center;
+  font-style: italic;
+}
+
+.block label {
+  display: block;
+  margin-bottom: 10px;
+  color: #34495e;
+  font-style: italic;
+}
+
+.block input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid #e74c3c;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  background-color: #e7d2a2; /* Changed background color to beige */
+}
+
+.heading {
+  flex: 1;
+  margin: 10px;
+  color: #27ae60;
+  font-style: italic;
+}
+
+.heading button {
+  margin: 15px;
+  padding: 10px 20px;
+  background-color: #e7d2a2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Additional styles for button hover effect */
+.heading button:hover {
+  background-color: #e7d2a2;
+}
